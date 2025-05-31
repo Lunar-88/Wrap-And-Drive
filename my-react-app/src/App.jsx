@@ -1,9 +1,9 @@
-import Header from './Header.jsx';
-import Hero from './Hero.jsx';
-import Services from './Services.jsx';
-import Booking from './Booking.jsx';
-import Gallery from './Gallery.jsx';
-import Footer from './Footer.jsx';
+import Header from './components/Header.jsx';
+import Hero from './components/Hero.jsx';
+import Services from './components/Services.jsx';
+import Booking from './components/Booking.jsx';
+import Gallery from './components/Gallery.jsx';
+import Footer from './components/Footer.jsx';
 import './styles.css';
 
 function App() {
