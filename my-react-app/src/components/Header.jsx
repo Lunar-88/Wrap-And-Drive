@@ -3,7 +3,9 @@ function Header() {
 
     return (
         <header>
-            <h1>Wrap & Drive</h1>
+            <div className="logo">
+                <img src="logo.png" alt="Logo" />
+            </div>
             <nav>
                 <ul className="nav-links">
                     <li><a href="#">Home</a></li>
@@ -18,4 +20,4 @@ function Header() {
 
 }
 
-export default Header
+export default Header;

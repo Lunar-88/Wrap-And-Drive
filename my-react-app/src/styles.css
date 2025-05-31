@@ -8,11 +8,12 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #fff;
+    background-color: #282c34;
     color: #fff;
     line-height: 1.6;
 }
 
+/* Header styles */
 header {
     position: fixed;
     top: 0;
@@ -31,7 +32,6 @@ h1 {
     margin: 0;
     padding: 0;
     font-weight: bold;
-    color: #61dafb;
 }
 
 nav {
@@ -65,6 +65,7 @@ nav {
     color: #61dafb;
 }
 
+/* Hero section styles */
 .hero {
     color: white;
   }
@@ -132,17 +133,40 @@ nav {
     border-radius: 8px;
     margin-top: 15px;
   }
-  
-  footer {
-    background-color: #2E2E2E;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+
+/*     Booking styles */
+.booking-container {
+  padding: 40px 20px;
+  background-color: #2E2E2E;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.booking-container h1 {
+  font-size: 4.5rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.booking-container p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+.booking-button {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 200px;
+  background-color: #61dafb;
+  padding: 20px;
+  border-radius: 50px;
+  color: #2E2E2E;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
+/* Gallery styles */
 .gallery {
   padding: 40px 20px;
   text-align: center;
@@ -180,4 +204,15 @@ nav {
 .gallery-images img:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styles */
+footer {
+  background-color: #2E2E2E;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }

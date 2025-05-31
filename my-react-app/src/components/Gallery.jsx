@@ -9,7 +9,6 @@ function Gallery() {
         <img src="https://i.pinimg.com/736x/6a/7f/42/6a7f4241b63e57dc7cf70368c8e83541.jpg" alt="Car Wrap 2" />
         <img src="https://i.pinimg.com/736x/0e/d9/34/0ed934500f82b92ed0fbec8c60f09e73.jpg" alt="Car Wrap 3" />
         <img src="https://i.pinimg.com/736x/96/e3/f6/96e3f643e150285d40bf41c77cc2612c.jpg" alt="Car Wrap 4" />
-        <img src="https://i.pinimg.com/736x/11/5d/f5/115df5d9f9d93f7545de4f5d908488ab.jpg" alt="Car Wrap 5" />
       </div>
     </div>
   );
