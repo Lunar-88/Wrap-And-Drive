@@ -105,6 +105,30 @@
     line-height: 1.2;
   }
 
+  /* Tablet */
+@media (max-width: 992px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .hero {
+    padding-top: 100px;
+    height: 90vh;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  .hero-content {
+    padding: 0 1rem;
+  }
+}
+
   /* Booking Section */
   .booking-container {
     padding: 40px 20px;
