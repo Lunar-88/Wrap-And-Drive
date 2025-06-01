@@ -2,11 +2,11 @@
 function Header() {
 
     return (
-        <header>
+        <header className="header">
             <div className="logo">
-                <img src="logo.png" alt="Logo" />
+                <img src="logo1.png" alt="Logo"/>
             </div>
-            <nav>
+            <nav className="nav" >
                 <ul className="nav-links">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
