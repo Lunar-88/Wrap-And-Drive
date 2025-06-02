@@ -6,9 +6,9 @@ function Services() {
             <div className="custom-wrap">
                 <div className="container">
                     <h1>Custom Wrap</h1>
-                    <p>We offer a wide range <br></br>of services to<br></br> meet your needs.</p>
+                    <p>We offer a wide range of services to meet your needs.</p>
                 </div>
-                <img src="image5.png" />
+                <img src="image5.png" alt="Custom Wrap"/>
             </div>
 
            <div className="color-change">
