@@ -4,6 +4,7 @@ import Booking from './components/Booking.jsx';
 import Services from './components/Services.jsx';
 import Gallery from './components/Gallery.jsx';
 import Footer from './components/Footer.jsx';
+import './utils/fontawesome.js';
 
 function App() {
   return (
